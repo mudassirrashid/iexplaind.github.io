@@ -1,0 +1,142 @@
+body {
+    padding: 10px;
+    margin: 0px;
+    z-index: 2;
+}
+
+/*.logo {
+    max-width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}*/
+
+
+.logo {
+    max-width: 300px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    display: block;
+}
+
+
+
+.btn1:hover {
+    background-color: #3B5998;
+    color: white;
+}
+.btn3:hover {
+    background-color: #3f729b;
+    color: white;
+}
+.btn2:hover {
+    background-color: #38A1F3;
+    color: white;
+}
+.btn1,.btn2,.btn3 {
+    background-color: white;
+    border: none;
+    padding: 2px 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+p {
+    text-align: justify;
+}
+
+video {
+  max-width: 100%    !important;
+  height: auto   !important;
+  z-index: 2;
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: -12px;
+  line-height: 15px;
+  z-index: 4;
+  }
+
+
+/* Slider */
+#slider2 {
+	overflow: hidden;	
+}
+#slider2 figure div {
+	float: left;
+	width: 120%;
+	
+}
+#slider2 figure {
+	width: 1250%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	animation: 30s slide2 infinite;
+	//animation-iteration-count: 10;
+}
+@keyframes slide2 {
+	0% {margin-left: -2000px;}
+	25% {margin-left: -1200px;}
+	50% {margin-left: 0px;}
+	75% {margin-left: 1200px;}
+	95% {margin-left: 1600;}
+	100% {margin-left: 2500;}
+	
+}
+
+#slider2 figure:hover {
+  -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
+}
+
+
+
+/* div border corners */
+#rcorner1 {
+  border-radius: 40px;
+  border: 4px solid orange;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  background-color: #F8C471;
+}
+
+#rcorner2 {
+  border-radius: 40px;
+  border: 4px solid green;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  background-color: #ABEBC6;
+}
+
+#rcorner3 {
+  border-radius: 40px;
+  border: 4px solid blue;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  background-color: #D6EAF8;
+}
+
+#rcorner4 {
+  border-radius: 40px;
+  border: 4px solid yellow;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  background-color: #F9E79F;
+}
+
